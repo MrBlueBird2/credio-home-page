@@ -1,0 +1,47 @@
+.open-account-btn {
+    border-radius: 30px;
+}
+
+.heading-1 h1 {
+    color: #1f1f30;
+    font-size: 70px;
+    min-width: 100%;
+    width: 490px;
+    /* letter-spacing: 0px; */
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:499px) {
+    .heading-1 h1 {
+        font-size: 30px;
+        margin-left: -130px;
+        width: 200px;
+    }
+
+    .crediometer-makes-bank .container-item .text-muted {
+        position: relative;
+        left: 70px;
+    }
+
+    .open-account-btn-2 {
+        position: relative;
+        left: -330px;
+        top: 100px;
+    }
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+.crediometer-makes-bank .container-item h4 {
+    max-width: 100%;
+    width: 400px;
+    line-height: 30px;
+}
+
+.open-account-btn-2 {
+    margin-left: 330px;
+    margin-top: -130px;
+    width: 150px;
+}
