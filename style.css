@@ -13,7 +13,7 @@
 
 @media only screen and (max-width:499px) {
     .heading-1 h1 {
-        font-size: 30px;
+        font-size: 50px;
         margin-left: -130px;
         width: 200px;
     }
@@ -44,4 +44,132 @@ body {
     margin-left: 330px;
     margin-top: -130px;
     width: 150px;
+}
+
+#gf-aba .container h3 {
+    color: #1f1f30;
+    font-size: 47px;
+    max-width: 100%;
+    width: 370px;
+}
+
+.svg-2 {
+    display: block;
+}
+
+@media only screen and (max-width:776px) {
+    .debits-card {
+        margin-top: 100px;
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .svg-2 {
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .svg-1 {
+        max-width: 100%;
+        width: 200px;
+    }
+
+    .svg-3 {
+        max-width: 100%;
+        width: 400px;
+    }
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+@font-face {
+    font-family: League Spartan;
+    src: url(./LeagueSpartan-Bold.otf);
+}
+
+.fw-bold {
+    font-family: 'League Spartan';
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.row-111 {
+    margin-top: -100px;
+    margin-left: 500px;
+    max-width: 100%;
+    width: 500px;
+}
+
+.row-333 {
+    margin-top: -100px;
+    margin-left: 500px;
+    max-width: 100%;
+    width: 500px;
+}
+
+.row-555 {
+    margin-top: -100px;
+    margin-left: 500px;
+    max-width: 100%;
+    width: 500px;
+}
+
+.border-radius-25 {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media only screen and (max-width:991px) {
+    .row-111 {
+        margin-left: -10px;
+        margin-top: 40px;
+    }
+
+    .row-333 {
+        margin-left: -10px;
+        margin-top: 40px;
+    }
+
+    .row-555 {
+        margin-left: -10px;
+        margin-top: 40px;
+    }
+
+    .row-111 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+
+    .row-000 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+
+    .row-333 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+
+    .row-222 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+
+    .row-444 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+
+    .row-555 .col-md-3 .container-item i {
+        position: relative;
+        top: -30px;
+    }
+}
+
+body {
+    overflow-x: hidden;
 }
